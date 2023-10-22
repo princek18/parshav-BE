@@ -1,0 +1,23 @@
+{
+  "name": "CSV-Pare-BE",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./node_modules/nodemon/bin/nodemon.js -r dotenv/config Index.js",
+    "parse": "node -r dotenv/config Parser.js",
+    "start": "node Index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.3",
+    "nodemon": "^3.0.1",
+    "xlsx": "^0.18.5"
+  }
+}
